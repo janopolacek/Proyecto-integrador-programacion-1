@@ -1,0 +1,33 @@
+body {background-color: rgb(226, 219, 124);
+color: white;
+overflow-x: hidden;
+}
+
+.centro {display: flex; 
+    justify-content: center;}
+
+#menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+   
+}
+
+#menu li {
+    background-color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    max-width: 100%;
+   border: solid 3px red;
+}
+
+.buscador {flex-wrap: wrap;
+display: flex;
+justify-content: center;}
+
+.buscador h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: normal;
+font-size: 450%}
+
