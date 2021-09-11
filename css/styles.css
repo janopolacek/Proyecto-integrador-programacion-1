@@ -38,13 +38,17 @@ article img
 
 section {
     display: flex;
+   
 }
 
 article { 
     margin: 3%;
-    background-color: black;
-    
 }
+
+.vermas {text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;}
 
 .footer{
     background: rgb(0, 200, 107);
@@ -53,13 +57,14 @@ article {
 }
 .footer ul{
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: row;
     justify-content: center;
 }
 .footer li {
     border-right: 1px solid #fff;
     text-transform: capitalize;
+    font-size: 200%;
 }
 .footer a{
     display: inline-block;
@@ -67,9 +72,34 @@ article {
 }
 
 .footer {
+    margin-bottom: 0%;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
     list-style: none;
-    margin: 5%;}
+    margin: 5%;
+    }
+
+#titulo {max-width: 100%;}
+
+.corazondeleon 
+    {display:block;
+        margin:auto;
+        width: 50%;
+       }
+
+.leontitulo {text-align: center;
+    font-family: fantasy;
+    font-size: 500%;}
+.detalle {display: flex;
+    }
+
+.detalle p {margin: 4%; font-size: 200%; }
+.elenco {margin: 4%;font-size: 200%; }
+.sinopsis {font-size: 200%; }
+.favoritos {font-size: 200%;}
+
+#pic { 
+    width:  30%;
+    height: 50%;}
