@@ -33,8 +33,8 @@ font-weight: normal;
 font-size: 450%}
 
 article img 
-{ width:  80%;
-    height: 90%;}
+{ width:  110%;
+    height: auto;}
 
 section {
     display: flex;
@@ -103,3 +103,29 @@ article {
 #pic { 
     width:  30%;
     height: 50%;}
+
+.genero 
+    {text-align: center;}
+
+.genpeliserie {
+    display: flex;
+    justify-content: center;}
+
+.genpeliserie h2
+    {margin-left: 8%;
+    margin-right: 8%;}
+
+.columnasgen 
+        {display: flex;
+        justify-content: center;}
+
+.listagen 
+        { text-transform: capitalize;
+            list-style: none;
+        border: solid 3px black;
+        }
+
+.listagen a
+        {text-decoration: none;
+            color: black;
+        }
