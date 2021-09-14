@@ -1,7 +1,11 @@
-body {background-color: rgb(226, 219, 124);
+body {background-color: rgb(49, 22, 22);
 color: white;
+max-width: 1300px;
+margin: auto;
 
-}
+min-height: 100vh;}
+
+
 
 .centro {
     display: flex; 
@@ -21,8 +25,11 @@ color: white;
     text-transform: uppercase;
     padding: 15px;
     max-width: 100%;
-   border: solid 3px red;
+   border: solid 3px rgb(0, 255, 191);
+   
 }
+#menu a {text-decoration: none;
+    color: blanchedalmond;}
 
 .buscador {flex-wrap: wrap;
 display: flex;
@@ -31,6 +38,8 @@ justify-content: center;}
 .buscador h1 {font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: normal;
 font-size: 450%}
+
+
 
 article img 
 { width:  110%;
@@ -50,10 +59,13 @@ article {
     color: white;
     padding: 5px;}
 
+footer {margin-top: auto;}
+
 .footer{
     background: rgb(0, 200, 107);
     border-radius: 30px 30px 0 0;
-    padding: 25px 0;
+    padding: 15px ;
+    
 }
 .footer ul{
     display: flex;
@@ -64,11 +76,13 @@ article {
 .footer li {
     border-right: 1px solid #fff;
     text-transform: capitalize;
-    font-size: 200%;
+    font-size: 100%;
 }
 .footer a{
     display: inline-block;
     padding: 2px 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .footer {
@@ -105,7 +119,8 @@ article {
     height: 50%;}
 
 .genero 
-    {text-align: center;}
+    {text-align: center;
+    font-size: 100px;}
 
 .genpeliserie {
     display: flex;
@@ -119,13 +134,20 @@ article {
         {display: flex;
         justify-content: center;}
 
+
+            
+.columnasgen h2
+            {font-size: xx-large;}
 .listagen 
         { text-transform: capitalize;
-            list-style: none;
-        border: solid 3px black;
+        list-style: none;
+        border: solid 3px rgb(241, 152, 152);
+        background-color: rgb(130, 238, 144);
         }
 
 .listagen a
         {text-decoration: none;
-            color: black;
+            color: rgb(0, 0, 0);
+            font-size: larger;
         }
+.clase {display: flex;}
