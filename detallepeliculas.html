@@ -2,8 +2,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -26,7 +27,7 @@
     <div class="buscador">
         <h1>Nefliz</h1>
     </div>
-    <header class="headerTodo">
+    <header class="headerDetalle">
 
         <div class="buscador">
             <section>
@@ -39,10 +40,10 @@
             </form>
             </section>
         </div>
+
+        </form>
+        </div>
         <nav>
-
-
-
             <!--los li van con un a adentro-->
 
             <ul id="menu">
@@ -52,55 +53,39 @@
                 <li><a href="#">peliculas populares</a></li>
                 <li><a href="#">series populares</a></li>
                 <li><a href="#"> lo mas valorado</a></li>
-              
-
+    
 
             </ul>
         </nav>
+
     </header>
 
     <main>
 
-        <section class="fotos">
-
-            <h2 id="titulo">Peliculas Populares</h2>
-
-            <div class="contenedor">
-
-                <article class="popularesjs">
-              
-                </article>
-
-              
+        <section class="detalle">
+            <div>
+                <img src="" alt="">
+                <h2 class="titulo"></h2>
+                <p class="reiting"></p>
+                <p class="date"></p>
+                <p class="duracion"></p>
+                <p class="sinopsis"></p>
+                
             </div>
-        </section>
-
-        <section class="fotos2">
-            <h2>
-                Series Populares 
-            </h2>
-
 
         </section>
 
-        <section class="fotos3">
-            <H2>
-                Lo mas valorado 
-            </H2>
-            
-        </section>
+        <label class="favoritos" for="radio">Agregar a favoritos</label>
+        <input class="favoritos" type="checkbox" name="favoritos" value="favoritos">
 
+            <!--La posibilidad de agregar la película a “favoritos”.-->
     </main>
-
-
     <footer>
-        <p>El equipo Nefliz esta constituido por: Bautista Linares y Jano Polacek</p>
+        <p>El equipo Nefliz esta constituido por: Bautista Linares y Jano Polacek </p>
         <img src="./img peliculas/imagen-moviedatabase.svg" alt="">
     </footer>
 
-
-
-<script src="./js/index.js"></script>
-</body> 
+<script src="./js/detallepeliculas.js"></script>
+</body>
 
 </html>

@@ -101,6 +101,10 @@ article {
         margin: auto;
     }
 
+    .detalle img {
+height: 50%;
+width: auto;
+    }
 
 #titulo {
     max-width: 100%;
@@ -168,20 +172,27 @@ h2#titulo {
     margin-right: 8%;
 }
 
-
 .columnasgen   {
     display: flex;
     justify-content: center;
+    flex-direction: column
     }
 
-
+.columnasgen2  {
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+        }
+    
             
 .columnasgen h2 {
     font-size: xx-large;
 }
 
+.columna {flex-direction: column}
 
 .listagen { 
+    
     text-transform: capitalize;
     list-style: none;
     border: solid 3px rgb(241, 152, 152);
