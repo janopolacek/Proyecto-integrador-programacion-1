@@ -214,6 +214,19 @@ h2#titulo {
     display:none;
 }
 
+.claseSeries{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.clase {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
 @media (max-width: 768px)
 {
 
